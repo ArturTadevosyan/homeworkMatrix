@@ -1,4 +1,4 @@
-package masiv251_260;
+package array251_260;
 
 public class Task254 {
     public static void main(String[] args) {

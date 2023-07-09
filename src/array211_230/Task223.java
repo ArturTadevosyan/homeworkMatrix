@@ -1,13 +1,14 @@
-package masiv211_230;
+package array211_230;
 
-public class Task219 {
+public class Task223 {
     public static void main(String[] args) {
-        long[] arr = {16, 7, -6, -7, 5, 9, 44, 5, -15, 66, 54};
+        int[] arr = {16, 7, -6, -7, 5, 1, 9, 44, 5, -15, 66, 54};
 
-        int k = 5;
+        int start = -25;
+        int end = 5;
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (i % k == 0) {
+            if (arr[i] > start && arr[i] < end) {
                 System.out.println("number " + i + " index = " + arr[i]);
                 count++;
             }
